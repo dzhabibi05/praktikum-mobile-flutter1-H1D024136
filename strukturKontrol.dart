@@ -1,0 +1,15 @@
+void main(){
+  int angka = 4;
+  if (angka > 4){
+    print ("Angka lebih besar dari 5");
+  }else {
+    print ("Angka tidak lebih besar dari 5");
+  }
+  for (int i = 0; i < 5; i++){
+    print ("iterasi ke-$i");
+  }
+  while (angka > 0){
+    print ("Nilai angka: $angka");
+    angka--;
+  }
+}
